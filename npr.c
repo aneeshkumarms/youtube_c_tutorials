@@ -23,7 +23,6 @@ int factorial(int n)
   return fact;
 }
 
-
 void main()
 {
   int n=0,r=0;
@@ -38,7 +37,6 @@ void main()
   int n_r_fact = factorial(n-r);
 
   int val = n_fact / n_r_fact;
-
-  printf("\n npr2  Value %d: ",val);
+  printf("\n nprf  Value %d: ",val);
 
 }
